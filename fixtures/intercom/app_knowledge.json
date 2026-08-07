@@ -1,0 +1,470 @@
+[
+  {
+    "id": "intercom_msg_conv_4421_2026-06-11T14:02:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-4421 \u2014 Mira Chen",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_4421:2026-06-11T14:02:00Z",
+    "timestamp": "2026-06-11T14:02:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "We were double-charged for our Pro plan this month. Invoice looks duplicated and dashboard exports are failing for our ops team.",
+      "author": "mira.chen@novalabs.io",
+      "thread_id": "conv_4421",
+      "created_at": "2026-06-11T14:02:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "ticket_id": "INT-4421"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_4421",
+      "contact_id": "intercom_mira_chen"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_4421",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "intercom_msg_conv_4421_2026-06-11T14:18:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-4421 \u2014 Mira Chen",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_4421:2026-06-11T14:18:00Z",
+    "timestamp": "2026-06-11T14:18:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "Sorry Mira \u2014 I can see the duplicate invoice. Opening a refund and escalating exports.",
+      "author": "support@signalboard.io",
+      "thread_id": "conv_4421",
+      "created_at": "2026-06-11T14:18:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "ticket_id": "INT-4421"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_4421",
+      "contact_id": "intercom_mira_chen"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_4421",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "intercom_msg_conv_4421_2026-06-17T10:41:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-4421 \u2014 Mira Chen",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_4421:2026-06-17T10:41:00Z",
+    "timestamp": "2026-06-17T10:41:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "Refund arrived, but exports still broken. We're canceling Pro unless this is fixed today.",
+      "author": "mira.chen@novalabs.io",
+      "thread_id": "conv_4421",
+      "created_at": "2026-06-17T10:41:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "ticket_id": "INT-4421"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_4421",
+      "contact_id": "intercom_mira_chen"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_4421",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "intercom_msg_conv_4421_2026-06-17T11:05:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-4421 \u2014 Mira Chen",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_4421:2026-06-17T11:05:00Z",
+    "timestamp": "2026-06-17T11:05:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "Seguimiento en espa\u00f1ol: estamos en plan Pro y las exportaciones del dashboard siguen con falla. El duplicado de la factura no se resuelve.",
+      "author": "mira.chen@novalabs.io",
+      "thread_id": "conv_4421",
+      "created_at": "2026-06-17T11:05:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "ticket_id": "INT-4421"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_4421",
+      "contact_id": "intercom_mira_chen"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_4421",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "intercom_ticket_INT-4421",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom ticket INT-4421 NovaLabs",
+    "type": "intercom",
+    "kind": "ticket",
+    "provider": "intercom",
+    "external_id": "INT-4421",
+    "timestamp": "2026-06-17T11:05:00Z",
+    "fields": {
+      "kind": "ticket",
+      "title": "INT-4421: Double-charged for June Pro invoice and export jobs kept failing",
+      "description": "[2026-06-11T14:02:00Z] mira.chen@novalabs.io: We were double-charged for our Pro plan this month. Invoice looks duplicated and dashboard exports are failing for our ops team.\n[2026-06-11T14:18:00Z] support@signalboard.io: Sorry Mira \u2014 I can see the duplicate invoice. Opening a refund and escalating exports.\n[2026-06-17T10:41:00Z] mira.chen@novalabs.io: Refund arrived, but exports still broken. We're canceling Pro unless this is fixed today.\n[2026-06-17T11:05:00Z] mira.chen@novalabs.io: Seguimiento en espa\u00f1ol: estamos en plan Pro y las exportaciones del dashboard siguen con falla. El duplicado de la factura no se resuelve.",
+      "status": "closed",
+      "assignee": "support",
+      "requester": "mira.chen@novalabs.io"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "ticket_id": "INT-4421"
+    },
+    "additional_metadata": {
+      "object_type": "ticket"
+    }
+  },
+  {
+    "id": "intercom_msg_conv_5108_2026-07-21T09:12:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-5108 \u2014 Jordan Lee",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_5108:2026-07-21T09:12:00Z",
+    "timestamp": "2026-07-21T09:12:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "Search is painfully slow during US peak hours. Saved searches are basically unusable.",
+      "author": "jordan.lee@brightline.co",
+      "thread_id": "conv_5108",
+      "created_at": "2026-07-21T09:12:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan",
+      "ticket_id": "INT-5108"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_5108",
+      "contact_id": "intercom_jordan_lee"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_5108",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_brightline_jordan"
+      }
+    ]
+  },
+  {
+    "id": "intercom_msg_conv_5108_2026-07-21T09:40:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-5108 \u2014 Jordan Lee",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_5108:2026-07-21T09:40:00Z",
+    "timestamp": "2026-07-21T09:40:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "Thanks Jordan \u2014 engineering is profiling the search path. Tracking as INT-5108.",
+      "author": "support@signalboard.io",
+      "thread_id": "conv_5108",
+      "created_at": "2026-07-21T09:40:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan",
+      "ticket_id": "INT-5108"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_5108",
+      "contact_id": "intercom_jordan_lee"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_5108",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_brightline_jordan"
+      }
+    ]
+  },
+  {
+    "id": "intercom_ticket_INT-5108",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom ticket INT-5108 Brightline",
+    "type": "intercom",
+    "kind": "ticket",
+    "provider": "intercom",
+    "external_id": "INT-5108",
+    "timestamp": "2026-07-21T09:40:00Z",
+    "fields": {
+      "kind": "ticket",
+      "title": "INT-5108: Search latency during peak hours",
+      "description": "[2026-07-21T09:12:00Z] jordan.lee@brightline.co: Search is painfully slow during US peak hours. Saved searches are basically unusable.\n[2026-07-21T09:40:00Z] support@signalboard.io: Thanks Jordan \u2014 engineering is profiling the search path. Tracking as INT-5108.",
+      "status": "open",
+      "assignee": "support",
+      "requester": "jordan.lee@brightline.co"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan",
+      "ticket_id": "INT-5108"
+    },
+    "additional_metadata": {
+      "object_type": "ticket"
+    }
+  },
+  {
+    "id": "intercom_msg_conv_6033_2026-06-28T16:05:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-6033 \u2014 Priya Shah",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_6033:2026-06-28T16:05:00Z",
+    "timestamp": "2026-06-28T16:05:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "After the Q2 pricing change Enterprise is too expensive for what we use. We never adopted AI Assist and won't renew.",
+      "author": "priya.shah@orbit.health",
+      "thread_id": "conv_6033",
+      "created_at": "2026-06-28T16:05:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya",
+      "ticket_id": "INT-6033"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_6033",
+      "contact_id": "intercom_priya_shah"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_6033",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_orbit_priya"
+      }
+    ]
+  },
+  {
+    "id": "intercom_msg_conv_6033_2026-06-28T16:22:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-6033 \u2014 Priya Shah",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_6033:2026-06-28T16:22:00Z",
+    "timestamp": "2026-06-28T16:22:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "Understood Priya. Happy to discuss a grandfathered rate before July 2.",
+      "author": "cs@signalboard.io",
+      "thread_id": "conv_6033",
+      "created_at": "2026-06-28T16:22:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya",
+      "ticket_id": "INT-6033"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_6033",
+      "contact_id": "intercom_priya_shah"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_6033",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_orbit_priya"
+      }
+    ]
+  },
+  {
+    "id": "intercom_msg_conv_6033_2026-07-01T18:01:00Z",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom INT-6033 \u2014 Priya Shah",
+    "type": "intercom",
+    "kind": "message",
+    "provider": "intercom",
+    "external_id": "conv_6033:2026-07-01T18:01:00Z",
+    "timestamp": "2026-07-01T18:01:00Z",
+    "fields": {
+      "kind": "message",
+      "body": "We'll proceed with cancel. Please confirm Enterprise ends July 2.",
+      "author": "priya.shah@orbit.health",
+      "thread_id": "conv_6033",
+      "created_at": "2026-07-01T18:01:00Z"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya",
+      "ticket_id": "INT-6033"
+    },
+    "additional_metadata": {
+      "conversation_id": "conv_6033",
+      "contact_id": "intercom_priya_shah"
+    },
+    "url": "https://app.intercom.com/a/apps/_/inbox/conversation/conv_6033",
+    "relations": [
+      {
+        "relation_type": "about_customer",
+        "target_provider": "stripe",
+        "target_external_id": "cus_orbit_priya"
+      }
+    ]
+  },
+  {
+    "id": "intercom_ticket_INT-6033",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Intercom ticket INT-6033 Orbit Health",
+    "type": "intercom",
+    "kind": "ticket",
+    "provider": "intercom",
+    "external_id": "INT-6033",
+    "timestamp": "2026-07-01T18:01:00Z",
+    "fields": {
+      "kind": "ticket",
+      "title": "INT-6033: Q2 pricing increase made Enterprise too expensive; never adopted AI Assist",
+      "description": "[2026-06-28T16:05:00Z] priya.shah@orbit.health: After the Q2 pricing change Enterprise is too expensive for what we use. We never adopted AI Assist and won't renew.\n[2026-06-28T16:22:00Z] cs@signalboard.io: Understood Priya. Happy to discuss a grandfathered rate before July 2.\n[2026-07-01T18:01:00Z] priya.shah@orbit.health: We'll proceed with cancel. Please confirm Enterprise ends July 2.",
+      "status": "closed",
+      "assignee": "support",
+      "requester": "priya.shah@orbit.health"
+    },
+    "metadata": {
+      "source": "intercom",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya",
+      "ticket_id": "INT-6033"
+    },
+    "additional_metadata": {
+      "object_type": "ticket"
+    }
+  }
+]

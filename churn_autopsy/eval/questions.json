@@ -1,0 +1,276 @@
+[
+  {
+    "id": "q1_pro_refund_multihop",
+    "question": "Which Pro customers canceled after a refund, what did they say in Intercom, and which feature did they stop using before cancel?",
+    "category": "multi_hop",
+    "expected": {
+      "must_include": [
+        "Mira Chen",
+        "NovaLabs",
+        "mira.chen@novalabs.io",
+        "dashboard-exports",
+        "double-charged"
+      ],
+      "must_include_any": [
+        ["refund", "re_novalabs_doublecharge"],
+        ["export", "dashboard-exports"]
+      ],
+      "must_not_include": ["Priya Shah"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q2_orbit_pricing",
+    "question": "Why did Orbit Health cancel Enterprise, and did they ever use AI Assist according to PostHog and Intercom?",
+    "category": "multi_hop",
+    "expected": {
+      "must_include": [
+        "Priya Shah",
+        "Orbit Health",
+        "ai-assist",
+        "pricing"
+      ],
+      "must_include_any": [
+        ["too expensive", "Q2", "pricing"]
+      ],
+      "must_not_include": ["Mira Chen"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q3_temporal_novalabs",
+    "question": "For Mira Chen, what happened first: the Stripe refund or the PostHog dashboard-exports collapse, and when did she cancel?",
+    "category": "temporal",
+    "expected": {
+      "must_include": [
+        "Mira Chen",
+        "dashboard-exports",
+        "2026-06-09",
+        "2026-06-12",
+        "2026-06-18"
+      ],
+      "must_include_any": [
+        ["refund happened first", "refund came first", "refund first", "re_novalabs_doublecharge"],
+        ["collapse", "week of 2026-06-09", "dropped"]
+      ],
+      "must_not_include": []
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q4_actor_brightline",
+    "question": "What did Jordan Lee say in Intercom about search, and which PostHog feature usage dropped afterward?",
+    "category": "actor",
+    "expected": {
+      "must_include": [
+        "Jordan Lee",
+        "saved-searches",
+        "search"
+      ],
+      "must_include_any": [
+        ["slow", "latency", "peak"]
+      ],
+      "must_not_include": ["canceled"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q5_metadata_filter_pro_canceled",
+    "question": "List Pro plan customers with status canceled.",
+    "category": "metadata_filter",
+    "expected": {
+      "must_include": ["NovaLabs", "Mira Chen", "pro"],
+      "must_include_any": [["canceled", "cancel"]],
+      "must_not_include": ["Brightline"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q6_docs_playbook",
+    "question": "According to the churn playbook and pricing notes, what CS action is recommended for Enterprise cancels that cite price and unused AI Assist?",
+    "category": "documents",
+    "expected": {
+      "must_include": ["AI Assist"],
+      "must_include_any": [
+        ["grandfather", "workshop", "onboarding"]
+      ],
+      "must_not_include": []
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q7_entity_dedup",
+    "question": "Is mira.chen@novalabs.io the same person as Stripe customer cus_novalabs_mira and PostHog user_mira_chen?",
+    "category": "entity_dedup",
+    "expected": {
+      "must_include": [
+        "mira.chen@novalabs.io",
+        "cus_novalabs_mira",
+        "user_mira_chen"
+      ],
+      "must_include_any": [
+        ["Mira Chen", "NovaLabs", "same"]
+      ],
+      "must_not_include": []
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q8_attribution",
+    "question": "Attribute NovaLabs churn: was it primarily billing dispute, product failure, or pricing?",
+    "category": "attribution",
+    "expected": {
+      "must_include": [
+        "NovaLabs",
+        "billing dispute",
+        "product failure",
+        "not primarily pricing"
+      ],
+      "must_include_any": [
+        ["double-charged", "refund", "dashboard-exports"]
+      ],
+      "must_not_include": []
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q9_thread_novalabs",
+    "question": "What was the full back-and-forth in Intercom with Mira Chen about the double charge and dashboard exports?",
+    "category": "thread",
+    "expected": {
+      "must_include": [
+        "Mira Chen",
+        "double-charged",
+        "dashboard exports",
+        "Refund arrived"
+      ],
+      "must_include_any": [
+        ["still broken", "canceling Pro", "Invoice looks duplicated"]
+      ],
+      "must_not_include": ["Jordan Lee", "Priya Shah"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q10_knowledge_update",
+    "question": "What is the latest CS guidance for an Enterprise cancel that cites price and unused AI Assist?",
+    "category": "knowledge_update",
+    "expected": {
+      "must_include": [
+        "Enterprise",
+        "price",
+        "AI Assist"
+      ],
+      "must_include_any": [
+        ["90-day grandfather", "onboarding workshop", "grandfather"]
+      ],
+      "must_not_include": []
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q11_active_growth_atrisk",
+    "question": "Which Growth plan customer is still active but flagged as at-risk, and what is the complaint?",
+    "category": "metadata_filter",
+    "expected": {
+      "must_include": [
+        "Brightline",
+        "Jordan Lee",
+        "growth",
+        "active"
+      ],
+      "must_include_any": [
+        ["search latency", "search is painfully slow", "saved-searches"]
+      ],
+      "must_not_include": ["canceled"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q12_actor_first_message",
+    "question": "What did Mira Chen say first in Intercom about the billing issue?",
+    "category": "actor",
+    "expected": {
+      "must_include": [
+        "Mira Chen",
+        "double-charged",
+        "Pro plan"
+      ],
+      "must_include_any": [
+        ["Invoice looks duplicated", "dashboard exports are failing"]
+      ],
+      "must_not_include": ["Jordan Lee", "Priya Shah"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q13_multihop_search_latency",
+    "question": "Which Brightline user complained about search latency, are they still active, and which PostHog feature usage dropped after the complaint?",
+    "category": "multi_hop",
+    "expected": {
+      "must_include": [
+        "Jordan Lee",
+        "saved-searches",
+        "active",
+        "growth"
+      ],
+      "must_include_any": [
+        ["search latency", "painfully slow", "peak hours"]
+      ],
+      "must_not_include": ["canceled"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q14_attribution_orbit",
+    "question": "Was Orbit Health's churn driven by pricing, feature adoption, or support quality?",
+    "category": "attribution",
+    "expected": {
+      "must_include": [
+        "Orbit Health",
+        "pricing",
+        "AI Assist"
+      ],
+      "must_include_any": [
+        ["too expensive", "Q2 pricing", "never adopted"]
+      ],
+      "must_not_include": ["billing dispute", "double-charged"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q15_multilingual_spanish",
+    "question": "What did the Spanish-language Intercom ticket say about the Pro plan and exports?",
+    "category": "multilingual",
+    "expected": {
+      "must_include": [
+        "Mira Chen",
+        "Pro"
+      ],
+      "must_include_any": [
+        ["export", "exportaciones", "dashboard"],
+        ["falla", "duplicado", "double-charged"]
+      ],
+      "must_not_include": ["Jordan Lee", "Priya Shah"]
+    },
+    "prefer_fast": true
+  },
+  {
+    "id": "q16_thinking_compare",
+    "question": "Compare NovaLabs and Orbit Health across Stripe, Intercom, PostHog, and the churn playbook. What is the common churn pattern and what CS action do the documents recommend?",
+    "category": "thinking_trap",
+    "expected": {
+      "must_include": [
+        "NovaLabs",
+        "Orbit Health",
+        "churn playbook",
+        "Q2 pricing notes"
+      ],
+      "must_include_any": [
+        ["price", "billing", "refund", "AI Assist", "dashboard-exports"]
+      ],
+      "must_not_include": []
+    },
+    "prefer_fast": false
+  }
+]

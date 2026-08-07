@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+eval_results.json
+dist/
+*.egg-info/
+.DS_Store
+web/node_modules/
+web/.next/
+web/out/

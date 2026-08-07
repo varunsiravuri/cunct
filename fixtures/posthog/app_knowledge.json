@@ -1,0 +1,578 @@
+[
+  {
+    "id": "posthog_usage_user_mira_chen_2026-05-26",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage NovaLabs week 2026-05-26",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_mira_chen:2026-05-26",
+    "timestamp": "2026-05-26T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Mira Chen (user_mira_chen) at NovaLabs week of 2026-05-26: dashboard-exports=42, saved-searches=18, ai-assist=2. Primary abandoned feature signal: dashboard-exports=42.",
+        "features": {
+          "dashboard-exports": 42,
+          "saved-searches": 18,
+          "ai-assist": 2
+        },
+        "abandoned_feature": "dashboard-exports",
+        "distinct_id": "user_mira_chen",
+        "org_id": "org_novalabs"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "distinct_id": "user_mira_chen"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-05-26"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_mira_chen_2026-06-02",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage NovaLabs week 2026-06-02",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_mira_chen:2026-06-02",
+    "timestamp": "2026-06-02T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Mira Chen (user_mira_chen) at NovaLabs week of 2026-06-02: dashboard-exports=39, saved-searches=17, ai-assist=1. Primary abandoned feature signal: dashboard-exports=39.",
+        "features": {
+          "dashboard-exports": 39,
+          "saved-searches": 17,
+          "ai-assist": 1
+        },
+        "abandoned_feature": "dashboard-exports",
+        "distinct_id": "user_mira_chen",
+        "org_id": "org_novalabs"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "distinct_id": "user_mira_chen"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-06-02"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_mira_chen_2026-06-09",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage NovaLabs week 2026-06-09",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_mira_chen:2026-06-09",
+    "timestamp": "2026-06-09T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Mira Chen (user_mira_chen) at NovaLabs week of 2026-06-09: dashboard-exports=4, saved-searches=16, ai-assist=0. Primary abandoned feature signal: dashboard-exports=4.",
+        "features": {
+          "dashboard-exports": 4,
+          "saved-searches": 16,
+          "ai-assist": 0
+        },
+        "abandoned_feature": "dashboard-exports",
+        "distinct_id": "user_mira_chen",
+        "org_id": "org_novalabs"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "distinct_id": "user_mira_chen"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-06-09"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_mira_chen_2026-06-16",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage NovaLabs week 2026-06-16",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_mira_chen:2026-06-16",
+    "timestamp": "2026-06-16T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Mira Chen (user_mira_chen) at NovaLabs week of 2026-06-16: dashboard-exports=0, saved-searches=9, ai-assist=0. Primary abandoned feature signal: dashboard-exports=0.",
+        "features": {
+          "dashboard-exports": 0,
+          "saved-searches": 9,
+          "ai-assist": 0
+        },
+        "abandoned_feature": "dashboard-exports",
+        "distinct_id": "user_mira_chen",
+        "org_id": "org_novalabs"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "distinct_id": "user_mira_chen"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-06-16"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_jordan_lee_2026-07-07",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage Brightline week 2026-07-07",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_jordan_lee:2026-07-07",
+    "timestamp": "2026-07-07T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Jordan Lee (user_jordan_lee) at Brightline week of 2026-07-07: dashboard-exports=12, saved-searches=55, ai-assist=8. Primary abandoned feature signal: saved-searches=55.",
+        "features": {
+          "dashboard-exports": 12,
+          "saved-searches": 55,
+          "ai-assist": 8
+        },
+        "abandoned_feature": "saved-searches",
+        "distinct_id": "user_jordan_lee",
+        "org_id": "org_brightline"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan",
+      "distinct_id": "user_jordan_lee"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-07-07"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_brightline_jordan"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_jordan_lee_2026-07-14",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage Brightline week 2026-07-14",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_jordan_lee:2026-07-14",
+    "timestamp": "2026-07-14T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Jordan Lee (user_jordan_lee) at Brightline week of 2026-07-14: dashboard-exports=11, saved-searches=48, ai-assist=7. Primary abandoned feature signal: saved-searches=48.",
+        "features": {
+          "dashboard-exports": 11,
+          "saved-searches": 48,
+          "ai-assist": 7
+        },
+        "abandoned_feature": "saved-searches",
+        "distinct_id": "user_jordan_lee",
+        "org_id": "org_brightline"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan",
+      "distinct_id": "user_jordan_lee"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-07-14"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_brightline_jordan"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_jordan_lee_2026-07-21",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage Brightline week 2026-07-21",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_jordan_lee:2026-07-21",
+    "timestamp": "2026-07-21T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Jordan Lee (user_jordan_lee) at Brightline week of 2026-07-21: dashboard-exports=10, saved-searches=12, ai-assist=6. Primary abandoned feature signal: saved-searches=12.",
+        "features": {
+          "dashboard-exports": 10,
+          "saved-searches": 12,
+          "ai-assist": 6
+        },
+        "abandoned_feature": "saved-searches",
+        "distinct_id": "user_jordan_lee",
+        "org_id": "org_brightline"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan",
+      "distinct_id": "user_jordan_lee"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-07-21"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_brightline_jordan"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_jordan_lee_2026-07-28",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage Brightline week 2026-07-28",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_jordan_lee:2026-07-28",
+    "timestamp": "2026-07-28T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Jordan Lee (user_jordan_lee) at Brightline week of 2026-07-28: dashboard-exports=9, saved-searches=5, ai-assist=5. Primary abandoned feature signal: saved-searches=5.",
+        "features": {
+          "dashboard-exports": 9,
+          "saved-searches": 5,
+          "ai-assist": 5
+        },
+        "abandoned_feature": "saved-searches",
+        "distinct_id": "user_jordan_lee",
+        "org_id": "org_brightline"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan",
+      "distinct_id": "user_jordan_lee"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-07-28"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_brightline_jordan"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_priya_shah_2026-06-10",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage Orbit Health week 2026-06-10",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_priya_shah:2026-06-10",
+    "timestamp": "2026-06-10T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Priya Shah (user_priya_shah) at Orbit Health week of 2026-06-10: dashboard-exports=20, saved-searches=22, ai-assist=0. Primary abandoned feature signal: ai-assist=0.",
+        "features": {
+          "dashboard-exports": 20,
+          "saved-searches": 22,
+          "ai-assist": 0
+        },
+        "abandoned_feature": "ai-assist",
+        "distinct_id": "user_priya_shah",
+        "org_id": "org_orbit"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya",
+      "distinct_id": "user_priya_shah"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-06-10"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_orbit_priya"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_priya_shah_2026-06-17",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage Orbit Health week 2026-06-17",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_priya_shah:2026-06-17",
+    "timestamp": "2026-06-17T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Priya Shah (user_priya_shah) at Orbit Health week of 2026-06-17: dashboard-exports=18, saved-searches=19, ai-assist=0. Primary abandoned feature signal: ai-assist=0.",
+        "features": {
+          "dashboard-exports": 18,
+          "saved-searches": 19,
+          "ai-assist": 0
+        },
+        "abandoned_feature": "ai-assist",
+        "distinct_id": "user_priya_shah",
+        "org_id": "org_orbit"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya",
+      "distinct_id": "user_priya_shah"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-06-17"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_orbit_priya"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_priya_shah_2026-06-24",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage Orbit Health week 2026-06-24",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_priya_shah:2026-06-24",
+    "timestamp": "2026-06-24T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Priya Shah (user_priya_shah) at Orbit Health week of 2026-06-24: dashboard-exports=15, saved-searches=14, ai-assist=0. Primary abandoned feature signal: ai-assist=0.",
+        "features": {
+          "dashboard-exports": 15,
+          "saved-searches": 14,
+          "ai-assist": 0
+        },
+        "abandoned_feature": "ai-assist",
+        "distinct_id": "user_priya_shah",
+        "org_id": "org_orbit"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya",
+      "distinct_id": "user_priya_shah"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-06-24"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_orbit_priya"
+      }
+    ]
+  },
+  {
+    "id": "posthog_usage_user_priya_shah_2026-07-01",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "PostHog usage Orbit Health week 2026-07-01",
+    "type": "posthog",
+    "kind": "custom",
+    "provider": "posthog",
+    "external_id": "user_priya_shah:2026-07-01",
+    "timestamp": "2026-07-01T12:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "usage_snapshot",
+        "summary": "PostHog weekly usage for Priya Shah (user_priya_shah) at Orbit Health week of 2026-07-01: dashboard-exports=3, saved-searches=4, ai-assist=0. Primary abandoned feature signal: ai-assist=0.",
+        "features": {
+          "dashboard-exports": 3,
+          "saved-searches": 4,
+          "ai-assist": 0
+        },
+        "abandoned_feature": "ai-assist",
+        "distinct_id": "user_priya_shah",
+        "org_id": "org_orbit"
+      }
+    },
+    "metadata": {
+      "source": "posthog",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya",
+      "distinct_id": "user_priya_shah"
+    },
+    "additional_metadata": {
+      "object_type": "usage_snapshot",
+      "week": "2026-07-01"
+    },
+    "relations": [
+      {
+        "relation_type": "same_person",
+        "target_provider": "stripe",
+        "target_external_id": "cus_orbit_priya"
+      }
+    ]
+  }
+]

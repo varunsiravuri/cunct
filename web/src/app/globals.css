@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0b1f3a;
+  --ink-soft: #1a3a5c;
+  --paper: #eef5ff;
+  --cloud: #f7fbff;
+  --signal: #2f6fed;
+  --signal-deep: #1d4ed8;
+  --sky: #7eb6ff;
+  --mist: rgba(255, 255, 255, 0.55);
+  --line: rgba(47, 111, 237, 0.18);
+  --mute: #5a7394;
+  --heat: #c2410c;
+}
+
+html,
+body {
+  color: var(--ink);
+  background: #dceaff;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(47, 111, 237, 0.22);
+}
+
+.display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+.cloud-stage {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(900px 520px at 18% 12%, rgba(126, 182, 255, 0.55) 0%, transparent 60%),
+    radial-gradient(700px 480px at 82% 18%, rgba(47, 111, 237, 0.22) 0%, transparent 55%),
+    radial-gradient(800px 600px at 50% 100%, rgba(180, 210, 255, 0.7) 0%, transparent 55%),
+    linear-gradient(180deg, #eaf2ff 0%, #d9e8ff 45%, #cfe0ff 100%);
+}
+
+.cloud-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(40px);
+  opacity: 0.7;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.95) 0%, rgba(190, 220, 255, 0.35) 55%, transparent 70%);
+  animation: drift 18s ease-in-out infinite;
+}
+
+.cloud-blob.a {
+  width: 42vw;
+  height: 28vw;
+  top: 6%;
+  left: -8%;
+}
+
+.cloud-blob.b {
+  width: 36vw;
+  height: 24vw;
+  top: 18%;
+  right: -6%;
+  animation-delay: -6s;
+  animation-duration: 22s;
+}
+
+.cloud-blob.c {
+  width: 50vw;
+  height: 30vw;
+  bottom: -8%;
+  left: 22%;
+  animation-delay: -11s;
+  animation-duration: 26s;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(2.5%, -3%, 0) scale(1.04);
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.48);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 18px 50px rgba(47, 111, 237, 0.08);
+}
+
+.page-shell {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}

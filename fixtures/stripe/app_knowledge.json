@@ -1,0 +1,301 @@
+[
+  {
+    "id": "stripe_customer_cus_novalabs_mira",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Stripe customer NovaLabs (Mira Chen)",
+    "type": "stripe",
+    "kind": "custom",
+    "provider": "stripe",
+    "external_id": "cus_novalabs_mira",
+    "timestamp": "2026-06-18T16:20:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "customer",
+        "name": "Mira Chen",
+        "email": "mira.chen@novalabs.io",
+        "company": "NovaLabs",
+        "plan": "pro",
+        "mrr_usd": 490,
+        "status": "canceled",
+        "subscription_id": "sub_novalabs_pro"
+      }
+    },
+    "metadata": {
+      "source": "stripe",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira"
+    },
+    "additional_metadata": {
+      "object_type": "customer"
+    },
+    "url": "https://dashboard.stripe.com/customers/cus_novalabs_mira"
+  },
+  {
+    "id": "stripe_sub_sub_novalabs_pro",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Stripe subscription NovaLabs pro",
+    "type": "stripe",
+    "kind": "custom",
+    "provider": "stripe",
+    "external_id": "sub_novalabs_pro",
+    "timestamp": "2026-06-18T16:20:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "subscription",
+        "summary": "Subscription sub_novalabs_pro for NovaLabs (Mira Chen, mira.chen@novalabs.io, customer_id=cus_novalabs_mira) on plan pro (MRR $490). Status: canceled. Canceled at 2026-06-18T16:20:00Z.",
+        "customer_id": "cus_novalabs_mira",
+        "subscription_id": "sub_novalabs_pro",
+        "canceled_at": "2026-06-18T16:20:00Z",
+        "refund_id": "re_novalabs_doublecharge",
+        "refund_at": "2026-06-12T09:05:00Z",
+        "refund_amount_usd": 490,
+        "refund_reason": "duplicate_billing_dispute",
+        "plan": "pro",
+        "status": "canceled",
+        "email": "mira.chen@novalabs.io"
+      }
+    },
+    "metadata": {
+      "source": "stripe",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira"
+    },
+    "additional_metadata": {
+      "object_type": "subscription"
+    },
+    "relations": [
+      {
+        "relation_type": "belongs_to",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "stripe_refund_re_novalabs_doublecharge",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Stripe refund NovaLabs $490",
+    "type": "stripe",
+    "kind": "custom",
+    "provider": "stripe",
+    "external_id": "re_novalabs_doublecharge",
+    "timestamp": "2026-06-12T09:05:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "refund",
+        "summary": "Refund re_novalabs_doublecharge of $490 issued to Mira Chen (mira.chen@novalabs.io, customer_id=cus_novalabs_mira) / NovaLabs on 2026-06-12T09:05:00Z. Reason: duplicate_billing_dispute. Subscription plan: pro. Customer status: canceled. Canceled at 2026-06-18T16:20:00Z.",
+        "amount_usd": 490,
+        "reason": "duplicate_billing_dispute"
+      }
+    },
+    "metadata": {
+      "source": "stripe",
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "status": "canceled",
+      "email": "mira.chen@novalabs.io",
+      "person_name": "Mira Chen",
+      "customer_id": "cus_novalabs_mira",
+      "has_refund": "true"
+    },
+    "additional_metadata": {
+      "object_type": "refund"
+    },
+    "relations": [
+      {
+        "relation_type": "belongs_to",
+        "target_provider": "stripe",
+        "target_external_id": "cus_novalabs_mira"
+      }
+    ]
+  },
+  {
+    "id": "stripe_customer_cus_brightline_jordan",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Stripe customer Brightline (Jordan Lee)",
+    "type": "stripe",
+    "kind": "custom",
+    "provider": "stripe",
+    "external_id": "cus_brightline_jordan",
+    "timestamp": "2026-05-01T00:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "customer",
+        "name": "Jordan Lee",
+        "email": "jordan.lee@brightline.co",
+        "company": "Brightline",
+        "plan": "growth",
+        "mrr_usd": 990,
+        "status": "active",
+        "subscription_id": "sub_brightline_growth"
+      }
+    },
+    "metadata": {
+      "source": "stripe",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan"
+    },
+    "additional_metadata": {
+      "object_type": "customer"
+    },
+    "url": "https://dashboard.stripe.com/customers/cus_brightline_jordan"
+  },
+  {
+    "id": "stripe_sub_sub_brightline_growth",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Stripe subscription Brightline growth",
+    "type": "stripe",
+    "kind": "custom",
+    "provider": "stripe",
+    "external_id": "sub_brightline_growth",
+    "timestamp": "2026-07-01T00:00:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "subscription",
+        "summary": "Subscription sub_brightline_growth for Brightline (Jordan Lee, jordan.lee@brightline.co, customer_id=cus_brightline_jordan) on plan growth (MRR $990). Status: active.",
+        "customer_id": "cus_brightline_jordan",
+        "subscription_id": "sub_brightline_growth",
+        "canceled_at": null,
+        "refund_id": null,
+        "refund_at": null,
+        "refund_amount_usd": null,
+        "refund_reason": null,
+        "plan": "growth",
+        "status": "active",
+        "email": "jordan.lee@brightline.co"
+      }
+    },
+    "metadata": {
+      "source": "stripe",
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "status": "active",
+      "email": "jordan.lee@brightline.co",
+      "person_name": "Jordan Lee",
+      "customer_id": "cus_brightline_jordan"
+    },
+    "additional_metadata": {
+      "object_type": "subscription"
+    },
+    "relations": [
+      {
+        "relation_type": "belongs_to",
+        "target_provider": "stripe",
+        "target_external_id": "cus_brightline_jordan"
+      }
+    ]
+  },
+  {
+    "id": "stripe_customer_cus_orbit_priya",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Stripe customer Orbit Health (Priya Shah)",
+    "type": "stripe",
+    "kind": "custom",
+    "provider": "stripe",
+    "external_id": "cus_orbit_priya",
+    "timestamp": "2026-07-02T19:40:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "customer",
+        "name": "Priya Shah",
+        "email": "priya.shah@orbit.health",
+        "company": "Orbit Health",
+        "plan": "enterprise",
+        "mrr_usd": 4200,
+        "status": "canceled",
+        "subscription_id": "sub_orbit_enterprise"
+      }
+    },
+    "metadata": {
+      "source": "stripe",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya"
+    },
+    "additional_metadata": {
+      "object_type": "customer"
+    },
+    "url": "https://dashboard.stripe.com/customers/cus_orbit_priya"
+  },
+  {
+    "id": "stripe_sub_sub_orbit_enterprise",
+    "database": "churn_autopsy",
+    "collection": "default",
+    "title": "Stripe subscription Orbit Health enterprise",
+    "type": "stripe",
+    "kind": "custom",
+    "provider": "stripe",
+    "external_id": "sub_orbit_enterprise",
+    "timestamp": "2026-07-02T19:40:00Z",
+    "fields": {
+      "kind": "custom",
+      "data": {
+        "object": "subscription",
+        "summary": "Subscription sub_orbit_enterprise for Orbit Health (Priya Shah, priya.shah@orbit.health, customer_id=cus_orbit_priya) on plan enterprise (MRR $4200). Status: canceled. Canceled at 2026-07-02T19:40:00Z.",
+        "customer_id": "cus_orbit_priya",
+        "subscription_id": "sub_orbit_enterprise",
+        "canceled_at": "2026-07-02T19:40:00Z",
+        "refund_id": null,
+        "refund_at": null,
+        "refund_amount_usd": null,
+        "refund_reason": null,
+        "plan": "enterprise",
+        "status": "canceled",
+        "email": "priya.shah@orbit.health"
+      }
+    },
+    "metadata": {
+      "source": "stripe",
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "status": "canceled",
+      "email": "priya.shah@orbit.health",
+      "person_name": "Priya Shah",
+      "customer_id": "cus_orbit_priya"
+    },
+    "additional_metadata": {
+      "object_type": "subscription"
+    },
+    "relations": [
+      {
+        "relation_type": "belongs_to",
+        "target_provider": "stripe",
+        "target_external_id": "cus_orbit_priya"
+      }
+    ]
+  }
+]

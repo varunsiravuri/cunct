@@ -1,0 +1,111 @@
+{
+  "company": "Northwind Analytics",
+  "product": "SignalBoard",
+  "customers": [
+    {
+      "customer_key": "novalabs",
+      "company_name": "NovaLabs",
+      "plan": "pro",
+      "mrr_usd": 490,
+      "status": "canceled",
+      "person": {
+        "name": "Mira Chen",
+        "email": "mira.chen@novalabs.io",
+        "role": "Head of Ops"
+      },
+      "stripe": {
+        "customer_id": "cus_novalabs_mira",
+        "subscription_id": "sub_novalabs_pro",
+        "canceled_at": "2026-06-18T16:20:00Z",
+        "refund_id": "re_novalabs_doublecharge",
+        "refund_at": "2026-06-12T09:05:00Z",
+        "refund_amount_usd": 490,
+        "refund_reason": "duplicate_billing_dispute"
+      },
+      "intercom": {
+        "contact_id": "intercom_mira_chen",
+        "conversation_id": "conv_4421",
+        "ticket_id": "INT-4421"
+      },
+      "posthog": {
+        "distinct_id": "user_mira_chen",
+        "org_id": "org_novalabs"
+      },
+      "story": {
+        "primary_complaint": "Double-charged for June Pro invoice and export jobs kept failing",
+        "feature_abandoned": "dashboard-exports",
+        "usage_drop_week": "2026-06-09"
+      }
+    },
+    {
+      "customer_key": "brightline",
+      "company_name": "Brightline",
+      "plan": "growth",
+      "mrr_usd": 990,
+      "status": "active",
+      "person": {
+        "name": "Jordan Lee",
+        "email": "jordan.lee@brightline.co",
+        "role": "VP Product"
+      },
+      "stripe": {
+        "customer_id": "cus_brightline_jordan",
+        "subscription_id": "sub_brightline_growth",
+        "canceled_at": null,
+        "refund_id": null,
+        "refund_at": null,
+        "refund_amount_usd": null,
+        "refund_reason": null
+      },
+      "intercom": {
+        "contact_id": "intercom_jordan_lee",
+        "conversation_id": "conv_5108",
+        "ticket_id": "INT-5108"
+      },
+      "posthog": {
+        "distinct_id": "user_jordan_lee",
+        "org_id": "org_brightline"
+      },
+      "story": {
+        "primary_complaint": "Search latency during peak hours",
+        "feature_abandoned": "saved-searches",
+        "usage_drop_week": "2026-07-20"
+      }
+    },
+    {
+      "customer_key": "orbit",
+      "company_name": "Orbit Health",
+      "plan": "enterprise",
+      "mrr_usd": 4200,
+      "status": "canceled",
+      "person": {
+        "name": "Priya Shah",
+        "email": "priya.shah@orbit.health",
+        "role": "CTO"
+      },
+      "stripe": {
+        "customer_id": "cus_orbit_priya",
+        "subscription_id": "sub_orbit_enterprise",
+        "canceled_at": "2026-07-02T19:40:00Z",
+        "refund_id": null,
+        "refund_at": null,
+        "refund_amount_usd": null,
+        "refund_reason": null
+      },
+      "intercom": {
+        "contact_id": "intercom_priya_shah",
+        "conversation_id": "conv_6033",
+        "ticket_id": "INT-6033"
+      },
+      "posthog": {
+        "distinct_id": "user_priya_shah",
+        "org_id": "org_orbit"
+      },
+      "story": {
+        "primary_complaint": "Q2 pricing increase made Enterprise too expensive; never adopted AI Assist",
+        "feature_abandoned": "ai-assist",
+        "usage_drop_week": "2026-06-25"
+      }
+    }
+  ]
+}
