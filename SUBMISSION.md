@@ -71,6 +71,4 @@ From `python -m churn_autopsy.demo.cli eval`:
 | Fast-mode ratio | 97.7% | 0% |
 | Total cost | $0.052 | $0.160 |
 
-## 60s demo script
 
-See [DEMO.md](./DEMO.md).
