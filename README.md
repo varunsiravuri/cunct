@@ -86,12 +86,3 @@ Latest `python -m churn_autopsy.demo.cli eval`:
 | Fast-mode calls | **97.7%** | **0%** |
 | Total cost (16 questions) | **$0.052** | **$0.160** |
 
-15 of 16 questions are answered entirely in fast mode. The one comparison question escalates to thinking after fast hops prove insufficient.
-
-## Demo (60s)
-
-1. Show native connectors set up for Stripe, Intercom, and PostHog.
-2. Show one customer linked across Stripe / Intercom / PostHog / PDF.
-3. Run the headline multi-hop question via FastLane (3 fast hops, 0 thinking).
-4. Flash the eval scoreboard: FastLane vs thinking-only.
-5. Show the comparison question that correctly escalates to thinking.
